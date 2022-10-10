@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Web Form API</title>
+
+    <style>
+        h1,
+        input,
+        button {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+            color: #000;
+        }
+
+        p {
+            color: red;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: monospace;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use checkValidity() method -->
+    <div>
+        <h1>Use checkValidity():</h1>
+        <input id="input1" type="number" min="100" max="400" required>
+        <button onclick="validation()">OK</button>
+        <p id="demo1"></p>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- use setCustomValidity() & checkValidity() method -->
+    <div>
+        <h1>Use setCustomValidity() & checkValidity():</h1>
+        <input id="input2" min="100" max="300" required type="number">
+        <button type="button" onclick="validationTwo()">OK</button>
+        <p id="demo2"></p>
+    </div>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
