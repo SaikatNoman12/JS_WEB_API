@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third HTML</title>
+
+    <style>
+        button {
+            font-size: 30px;
+            color: #000;
+            font-family: monospace;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use window.history.go() method -->
+    <button type="button" onclick="goBack2Page(-2)">Go back 2 page</button>
+
+    <!-- use window.history.back() method -->
+    <button type="button" onclick="goBack()">Go back page</button>
+
+    <!-- use window.history.length -->
+    <button type="button" onclick="showAllHistory()">All History</button>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
