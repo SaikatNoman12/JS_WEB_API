@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Web Worker API</title>
+
+    <style>
+        button,
+        p {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+            color: #000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div>
+        <button type="button" onclick="onStartWorker()">Start Worker</button>
+
+        <button type="button" onclick="onStopWorker()">Stop Worker</button>
+
+        <button type="button" onclick="showAlert()">Hello</button>
+    </div>
+
+    <div>
+        <p id="showWorkerData"></p>
+    </div>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
