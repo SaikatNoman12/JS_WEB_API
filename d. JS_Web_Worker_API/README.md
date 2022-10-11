@@ -2,7 +2,7 @@
 
 
 
-## How To use Worker API: 
+## How To use Worker API:
 
     // worker file;
     postMessage(workerValue);
