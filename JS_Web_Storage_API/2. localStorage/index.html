@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Web Storage API</title>
+
+    <style>
+        button {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+            color: #000;
+            margin: 30px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use window.localStorage.setItem(key, value) method -->
+    <div>
+        <button type="button" onclick="setLocalStorage('name', 'Ruposi Khan')">Set localStorage name</button>
+    </div>
+
+    <!-- use window.localStorage.getItem(key) method -->
+    <div>
+        <button type="button" onclick="getLocalStorage('name')">Get localStorage name</button>
+    </div>
+
+    <!-- use window.localStorage.removeItem(key) method -->
+    <div>
+        <button type="button" onclick="removeLocalStorage('name')">Remove localStorage name</button>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <!-- use window.localStorage.setItem(key, value) method -->
+    <div>
+        <button type="button" onclick="setLocalStorage('username', 'Sonia Mirza')">Set localStorage username</button>
+    </div>
+
+    <!-- use window.localStorage.getItem(key) method -->
+    <div>
+        <button type="button" onclick="getLocalStorage('username')">Get localStorage username</button>
+    </div>
+
+    <!-- use window.localStorage.removeItem(key) method -->
+    <div>
+        <button type="button" onclick="removeLocalStorage('username')">Remove localStorage username</button>
+    </div>
+
+
+    <!-- use window.localStorage.clear() method -->
+    <div>
+        <button type="button" onclick="clearLocalStorage()">Clear All localStorage Data</button>
+    </div>
+
+
+    <!-- use window.localStorage.key(index) method -->
+    <div>
+        <button type="button" onclick="localStorageKey(1)">Use key and Get Index 1 Data</button>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
