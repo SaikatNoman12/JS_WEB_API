@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Web Geolocation API</title>
+
+    <style>
+        button,
+        p {
+            color: #000;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: monospace;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- use navigator.geolocation.getCurrentLocation(showLocationFunc, showErrorFunc) method -->
+    <div>
+        <button type="button" onclick="onShowLocation()">Use geolocation getCurrentLocation() method</button>
+
+        <p class="demo1"></p>
+    </div>
+
+
+    <!-- use navigator.geolocation.watchPosition(showLocationFunc, showErrorFunc) method -->
+    <div>
+        <button type="button" onclick="onShowLocationTwo()">Use geolocation watchPosition() method</button>
+
+        <p class="demo2"></p>
+    </div>
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
